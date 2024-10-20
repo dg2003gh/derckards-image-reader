@@ -3,6 +3,10 @@
 A image reader voice controller for feh image reader that try to replicate
 Blade Runner Derckard Reader. 
 
+>[!WARNING]
+> This is an Alpha, please report issues on the 
+> Issues page.
+
 
 | Dependencies |
 |----------------|
@@ -24,6 +28,10 @@ python src/main.py
 
 ## Commands 
 
+> [!TIP]
+> Say one command after the other to go by laterals, just like "right up".
+
+Here are the current available commands:
 | Command list | Description |
 |--------------|-------------|
 | open [Image] | Opens a image|
