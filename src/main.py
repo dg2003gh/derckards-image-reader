@@ -69,8 +69,9 @@ def listenSpeak():
     with sr.Microphone() as source:
         msg = "Speak something..."
         utils.messageHandler(speaker, msg)
-        recognizer.adjust_for_ambient_noise(source, duration=1)
-        audio_data = recognizer.listen(source, timeout=5)
+
+        recognizer.adjust_for_ambient_noise(source)
+        audio_data = recognizer.listen(source)
 
         recognize_cmd(audio_data)
 
