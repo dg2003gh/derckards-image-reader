@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "derckards-image-reader"
+version = "0.1.0"
+description = ""
+authors = ["Douglas Guimarães <douglas.guimaraes.2120@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+speechrecognition = "^3.10.4"
+pyaudio = "^0.2.14"
+setuptools = "^75.2.0"
+sounddevice = "^0.5.1"
+pyttsx3 = "^2.98"
+psutil = "^6.1.0"
+pyautogui = "^0.9.54"
+python-xlib = "^0.33"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
