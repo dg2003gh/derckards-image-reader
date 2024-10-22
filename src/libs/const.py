@@ -10,8 +10,10 @@ KEYS = {
     "previous": ("", "left"),
 }
 
-
+# To be called inside MAIN(DIM) so always use self to call its methods
+# NOT DIM.
 CMDS = {
+    "open": "self.open_image()",
     "stop": "utils.setKeepPressing(False)",
-    "close": "utils.kill(imageProgram.pid)",
+    "close": "utils.kill(self.imageProgram.pid)",
 }
